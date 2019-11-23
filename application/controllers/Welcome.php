@@ -22,4 +22,7 @@ class Welcome extends CI_Controller {
 	{
 		$this->load->view('home.php');
 	}
+	public function login(){
+		$this->load->view('loginFix.php');
+	}
 }
