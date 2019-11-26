@@ -25,4 +25,7 @@ class Welcome extends CI_Controller {
 	public function login(){
 		$this->load->view('loginFix.php');
 	}
+	public function upload(){
+		$this->load->view('uploadimage.php');
+	}
 }
